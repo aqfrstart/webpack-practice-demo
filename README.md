@@ -11,3 +11,19 @@
    - `loader`：webpack开箱即用的仅支持`.json`和`.js`文件，其他文件需要通过不同的loader来配置。
    - `plugin`：用于解决loader无法实现的其他事。可以通过plugin干涉打包构建过程。
 
+2.  **dev**开发中
+
+一. 开发模式
+
+`	观察模式`： 使用 `watch`命令开启观察模式，此方式不会自动刷新浏览器
+
+`webpack-dev-server`: 一个简单的web服务器，能够`实时重新加载`
+
+`webpack-dev-middleware`: 一个容器，它可以把webpack处理后的文件传递给一个服务器(server)。webpack-dev-server在内部使用了它
+
+二. 模块热替换
+
+`Hot Module Replacement`: 模块热替换
+
+​	
+
